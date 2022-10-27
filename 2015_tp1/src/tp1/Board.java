@@ -1,3 +1,8 @@
+//IFT2015 TP1
+//Auteures: Jeongeun Lee (20215747)
+//          Grace Lee (20174147)
+
+//
 package tp1;
 
 import java.util.ArrayList;

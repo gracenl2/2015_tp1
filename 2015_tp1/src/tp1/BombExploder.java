@@ -1,11 +1,21 @@
+//IFT2015 TP1
+//Auteures: Jeongeun Lee (20215747)
+//          Grace Lee (20174147)
+
+//
 package tp1;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class BombExploder {
-    public static void main(String[] args) {
- 
-        Scanner sc = new Scanner(System.in);
+	
+    public static void main(String[] args) throws FileNotFoundException {
+    	
+    	File myObj = new File(args[0]);
+
+        Scanner sc = new Scanner(myObj);
 
         int n = sc.nextInt();
         int m = sc.nextInt();
