@@ -1,8 +1,8 @@
-//IFT2015 TP1
-//Auteures: Jeongeun Lee (20215747)
+// IFT2015 TP1
+// Auteurs: Jeongeun Lee (20215747)
 //          Grace Lee (20174147)
+// Date:    Le 28 octobre 2022
 
-//
 package tp1;
 
 import java.io.File;
@@ -32,7 +32,7 @@ public class BombExploder {
         }
 
         if (result == 0) {
-            System.out.printf("Solving this board required %d iterations.", count);
+            System.out.printf("Solving this board required %d iterations.", count);     // print the number of iterations that is needed to execute the BombExploder
         } 
 
         sc.close();
