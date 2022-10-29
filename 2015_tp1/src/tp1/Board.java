@@ -25,6 +25,11 @@ public class Board {
         this.inactiveBomb = new ArrayList<Integer>();
     }
 
+    public void setBoard(ArrayList<ArrayList<Integer>> board)
+    {
+        this.board = board;
+    }
+
     // create the random number between 0, 1 and 2 in the board
     protected static int getNumber() 
     {
